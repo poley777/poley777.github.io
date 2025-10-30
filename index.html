@@ -1,22 +1,51 @@
-<¡doctype html>
-  <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="John Doe">
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mi sitio de ejercicios</title>
     <style>
-      body {background-color: powderblue;}
-      h1 {color: red;}
-      p {color: blue;}
+        body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 2rem; line-height:1.5; color:#111; }
+        header { margin-bottom: 1.5rem; }
+        h1 { font-size: 2rem; margin: 0; }
+        h2 { font-size: 1.1rem; font-weight: 500; color:#444; margin-top:0.25rem; }
+        nav ul { padding-left: 1.2rem; }
+        nav a { text-decoration: none; color: #0a66c2; }
+        footer { margin-top: 2rem; font-size: 0.9rem; color:#666; }
     </style>
-    <title> Pedro Poley</title>
-  </head>
-  <body>
-    <h1>Hola mundo</h1>
-    <p>Pedro Poley</p>
-     <script>
-      alert("Alerta 67")
-    </script> 
-  </body>
-  </html>
+</head>
+<body>
+<header>
+    <h1>Mi sitio de ejercicios</h1>
+    <h2>Pedro Poley</h2>
+</header>
+
+<main>
+    <section>
+        <h3>Enlaces a ejercicios</h3>
+        <p>Los ejercicios están en la carpeta <code>/web</code>. Aquí tienes una lista no ordenada con enlaces de ejemplo:</p>
+        <nav>
+            <ul>
+                <li><a href="/web/ejercicio1.html">Ejercicio 1</a></li>
+                <li><a href="/web/ejercicio2.html">Ejercicio 2</a></li>
+                <li><a href="/web/ejercicio3.html">Ejercicio 3</a></li>
+                <li><a href="/web/about.html">Sobre mí (About)</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section>
+        <h3>Descripción</h3>
+        <p>Esta página principal contiene enlaces a los ejercicios y a la página "Sobre mí". Crea dentro de <code>/web</code> los archivos de cada ejercicio (por ejemplo: <code>ejercicio1.html</code>, <code>ejercicio2.html</code>, ...).</p>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Mi sitio de ejercicios</p>
+    <script>
+        // Mostrar año actual
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</footer>
+</body>
+</html>
