@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercicio 3: Formulario de Contacto</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+            margin: 2rem;
+            line-height: 1.6;
+            color: #111;
+            background-color: #fafafa;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-top: 1rem;
+            font-weight: 600;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.7rem;
+            margin-top: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            margin-top: 1.5rem;
+            padding: 0.8rem;
+            background-color: #d61a1f;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #b0151a;
+        }
+        nav a {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: #0a66c2;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="/index.html">&larr; Volver a inicio</a>
+</nav>
+
+<h1>Formulario de Contacto</h1>
+
+<form action="https://lm.ciclo.iesnervion.es/form3/envio.php" method="post" enctype="multipart/form-data">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+    <!-- Reto: campo para subir una imagen -->
+    <label for="imagen">Subir una imagen:</label>
+    <input type="file" id="imagen" name="imagen" accept="image/*">
+
+    <button type="submit">Enviar formulario</button>
+</form>
+</body>
+</html>
