@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172cc71d-06af-47ec-86ed-b1b1c3ad5d78" name="Changes" comment="Ejercicios HTML">
+      <change afterPath="$PROJECT_DIR$/EjerciciosCSSnivelbásico/css/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjerciciosCSSnivelbásico/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/ejercicio4.1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ejemplos.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/ejemplos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="tsconfig.json" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -52,33 +53,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.Ejercicio01.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.about.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.cartel.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.ejemplos.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.entradas.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.localizacion.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.prueba.html.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pedro.poley/WebstormProjects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Ejercicio01.html.executor": "Debug",
+    "JavaScript Debug.Tablas y enlaces.html.executor": "Debug",
+    "JavaScript Debug.about.html.executor": "Debug",
+    "JavaScript Debug.cartel.html.executor": "Debug",
+    "JavaScript Debug.ejemplos.html.executor": "Debug",
+    "JavaScript Debug.ejercicio4.1.html.executor": "Debug",
+    "JavaScript Debug.entradas.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Debug",
+    "JavaScript Debug.localizacion.html.executor": "Run",
+    "JavaScript Debug.papa.html.executor": "Debug",
+    "JavaScript Debug.prueba.html.executor": "Debug",
+    "JavaScript Debug.tabla.html.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/pedro.poley/WebstormProjects",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pedro.poley\WebstormProjects" />
@@ -115,7 +123,13 @@
       <workItem from="1763023463368" duration="130000" />
       <workItem from="1763023595426" duration="5823000" />
       <workItem from="1763031965669" duration="85000" />
-      <workItem from="1763384771732" duration="1847000" />
+      <workItem from="1763384771732" duration="1992000" />
+      <workItem from="1763450350234" duration="3761000" />
+      <workItem from="1763623597003" duration="3673000" />
+      <workItem from="1764055921493" duration="1331000" />
+      <workItem from="1764057276108" duration="1544000" />
+      <workItem from="1764231542056" duration="2985000" />
+      <workItem from="1764234863150" duration="4210000" />
     </task>
     <task id="LOCAL-00001" summary="ejemplos">
       <option name="closed" value="true" />
@@ -205,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763032040980</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ejercicios HTML">
+      <option name="closed" value="true" />
+      <created>1763386755866</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763386755866</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,5 +238,13 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Ejercicios HTML" />
     <option name="LAST_COMMIT_MESSAGE" value="Ejercicios HTML" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
