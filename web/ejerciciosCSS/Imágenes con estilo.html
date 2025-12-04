@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imágenes con estilo</title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            background-size: 50px 50px;
+            border: 3px solid;
+            background-image: url(../../EjerciciosCSSnivelbásico/img/image.png);
+        }
+        #div1 {
+            background-position: center center;
+            background-repeat: no-repeat;
+            border-color: darkred;
+        }
+        #div2 {
+            background-position: bottom left;
+            background-repeat: repeat-x;
+            border-color: blue;
+        }
+        #div3 {
+            background-position: bottom right;
+            background-repeat: repeat-y;
+            border-color: green;
+        }
+    </style>
+</head>
+<body>
+<div id = "div1"></div>
+<div id = "div2"></div>
+<div id = "div3"></div>
+</body>
+</html>

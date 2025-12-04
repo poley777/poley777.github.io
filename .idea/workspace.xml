@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172cc71d-06af-47ec-86ed-b1b1c3ad5d78" name="Changes" comment="Ejercicios HTML">
-      <change afterPath="$PROJECT_DIR$/EjerciciosCSSnivelbásico/css/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EjerciciosCSSnivelbásico/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/ejercicio4.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/Ejercicios con tablas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/Imágenes con estilo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/Maquetación de una Receta Responsiva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/Mi tabla ejemplo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/caja simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/estilo-receta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/imágenes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ejerciciosCSS/ejercicio4.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/ejerciciosCSS/ejercicio4.1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,12 +62,17 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.Ejercicio01.html.executor": "Debug",
+    "JavaScript Debug.Ejercicios con tablas.html.executor": "Debug",
+    "JavaScript Debug.Imágenes con estilo.html.executor": "Debug",
+    "JavaScript Debug.Mi tabla ejemplo.html.executor": "Debug",
     "JavaScript Debug.Tablas y enlaces.html.executor": "Debug",
     "JavaScript Debug.about.html.executor": "Debug",
+    "JavaScript Debug.caja simple.html.executor": "Debug",
     "JavaScript Debug.cartel.html.executor": "Debug",
     "JavaScript Debug.ejemplos.html.executor": "Debug",
     "JavaScript Debug.ejercicio4.1.html.executor": "Debug",
     "JavaScript Debug.entradas.html.executor": "Run",
+    "JavaScript Debug.imágenes.html.executor": "Debug",
     "JavaScript Debug.index.html.executor": "Debug",
     "JavaScript Debug.localizacion.html.executor": "Run",
     "JavaScript Debug.papa.html.executor": "Debug",
@@ -100,7 +110,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
       </set>
     </attachedChunks>
   </component>
@@ -129,7 +139,9 @@
       <workItem from="1764055921493" duration="1331000" />
       <workItem from="1764057276108" duration="1544000" />
       <workItem from="1764231542056" duration="2985000" />
-      <workItem from="1764234863150" duration="4210000" />
+      <workItem from="1764234863150" duration="4236000" />
+      <workItem from="1764660228690" duration="3333000" />
+      <workItem from="1764836434181" duration="7907000" />
     </task>
     <task id="LOCAL-00001" summary="ejemplos">
       <option name="closed" value="true" />
@@ -227,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763386755866</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ejercicios HTML">
+      <option name="closed" value="true" />
+      <created>1764244041451</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764244041451</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +258,13 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Ejercicios HTML" />
     <option name="LAST_COMMIT_MESSAGE" value="Ejercicios HTML" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="   padding: 10px;&#10;            margin: 20px;&#10;            overflow: auto;" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
