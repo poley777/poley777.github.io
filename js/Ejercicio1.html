@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="mensaje"></div>
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre">
+<label for="edad">Edad:</label>
+<input type="number" id="edad" min="0" max="120">
+<button id="enviar">Enviar</button>
+<br>
+<hr>
+<br>
+<label for="numero1">Número 1:</label>
+<input type="number" id="numero1" placeholder="Dame un numero">
+<label for="numero2">Número 2:</label>
+<input type="number" id="numero2" placeholder="Dame otro numero">
+<span style="margin:13px" id="resultado"></span>
+<button id="sumar">+</button>
+<button id="resta">-</button>
+<button id="multiplicar">*</button>
+<button id="dividir">/</button>
+<!-- Nuevo elemento: muestra los resultados de los dos números declarados -->
+<div id="resFijos" style="margin-top:10px"></div>
+<script>
+  let nombre = document.getElementById("nombre");
+  let edad = document.getElementById("edad");
+  let mensaje = document.getElementById("mensaje");
+  // Declarar variables con "mi nombre" y "mi edad" (valores por defecto)
+  const miNombreDeclarado = "Pedro Poley";
+  const miEdadDeclarada = 30;
+  // Poner estos valores por defecto en los inputs
+  nombre.value = miNombreDeclarado;
+  edad.value = miEdadDeclarada;
+
+  // Mostrar el mensaje en el formato solicitado al cargar la página
+  mensaje.innerHTML = "Mi nombre es " + miNombreDeclarado + " y tengo " + miEdadDeclarada + " años";
+
+  // Corregido: obtener el botón correcto y usar su variable
+  let enviar = document.getElementById("enviar");
+  enviar.addEventListener("click", function (){
+    // Declarar variables con el nombre y la edad (tomadas del input)
+    let miNombre = nombre.value || "(sin nombre)";
+    let miEdad = edad.value || "0";
+    // Mostrar el mensaje en el formato solicitado
+    mensaje.innerHTML = "Mi nombre es " + miNombre + " y tengo " + miEdad + " años";
+  });
+
+  let numero1 = document.getElementById("numero1");
+  let numero2 = document.getElementById("numero2");
+  let resultado = document.getElementById("resultado");
+
+  // Obtener botones de operaciones
+  let btnSumar = document.getElementById("sumar");
+  let btnResta = document.getElementById("resta");
+  let btnMultiplicar = document.getElementById("multiplicar");
+  let btnDividir = document.getElementById("dividir");
+
+  // Declarar dos números por defecto (pueden sobreescribirse con los inputs)
+  let a = 8; // número A por defecto
+  let b = 2; // número B por defecto
+
+  // Función para leer los inputs si el usuario proporciona valores válidos
+  function readInputsOrDefaults() {
+    const n1 = Number(numero1.value);
+    const n2 = Number(numero2.value);
+    // Si el campo no está vacío y es un número válido, usarlo; si no, mantener el valor por defecto
+    if (numero1.value !== "" && !Number.isNaN(n1)) a = n1;
+    if (numero2.value !== "" && !Number.isNaN(n2)) b = n2;
+  }
+
+  btnSumar.addEventListener("click", function (){
+    readInputsOrDefaults();
+    resultado.innerText = "Suma: " + (a + b);
+  });
+
+  btnResta.addEventListener("click", function (){
+    readInputsOrDefaults();
+    resultado.innerText = "Diferencia: " + (a - b);
+  });
+
+  btnMultiplicar.addEventListener("click", function (){
+    readInputsOrDefaults();
+    resultado.innerText = "Producto: " + (a * b);
+  });
+
+  btnDividir.addEventListener("click", function (){
+    readInputsOrDefaults();
+    if (b === 0) {
+      resultado.innerText = "Error: división por 0";
+    } else {
+      resultado.innerText = "Cociente: " + (a / b);
+    }
+  });
+</script>
+</body>
+</html>

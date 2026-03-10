@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="172cc71d-06af-47ec-86ed-b1b1c3ad5d78" name="Changes" comment="Ejercicios HTML">
-      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/Ejercicios con tablas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/Imágenes con estilo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/Maquetación de una Receta Responsiva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/Mi tabla ejemplo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/caja simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/estilo-receta.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/ejerciciosCSS/imágenes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ejerciciosCSS/ejercicio4.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/ejerciciosCSS/ejercicio4.1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,45 +50,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Ejercicio01.html.executor": "Debug",
-    "JavaScript Debug.Ejercicios con tablas.html.executor": "Debug",
-    "JavaScript Debug.Imágenes con estilo.html.executor": "Debug",
-    "JavaScript Debug.Mi tabla ejemplo.html.executor": "Debug",
-    "JavaScript Debug.Tablas y enlaces.html.executor": "Debug",
-    "JavaScript Debug.about.html.executor": "Debug",
-    "JavaScript Debug.caja simple.html.executor": "Debug",
-    "JavaScript Debug.cartel.html.executor": "Debug",
-    "JavaScript Debug.ejemplos.html.executor": "Debug",
-    "JavaScript Debug.ejercicio4.1.html.executor": "Debug",
-    "JavaScript Debug.entradas.html.executor": "Run",
-    "JavaScript Debug.imágenes.html.executor": "Debug",
-    "JavaScript Debug.index.html.executor": "Debug",
-    "JavaScript Debug.localizacion.html.executor": "Run",
-    "JavaScript Debug.papa.html.executor": "Debug",
-    "JavaScript Debug.prueba.html.executor": "Debug",
-    "JavaScript Debug.tabla.html.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/pedro.poley/WebstormProjects",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Ejercicio01.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.Ejercicios con tablas.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.Imágenes con estilo.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.Mi tabla ejemplo.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.Tablas y enlaces.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.about.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.caja simple.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.cartel.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.ejemplos.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.ejercicio4.1.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.entradas.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.imágenes.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.localizacion.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.papa.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.prueba.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.tabla.html.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pedro.poley/WebstormProjects&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pedro.poley\WebstormProjects" />
@@ -110,7 +104,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-WS-253.28294.332" />
       </set>
     </attachedChunks>
   </component>
@@ -142,6 +136,12 @@
       <workItem from="1764234863150" duration="4236000" />
       <workItem from="1764660228690" duration="3333000" />
       <workItem from="1764836434181" duration="7907000" />
+      <workItem from="1764846364342" duration="33000" />
+      <workItem from="1765265497390" duration="1511000" />
+      <workItem from="1765270544369" duration="1193000" />
+      <workItem from="1765367772322" duration="749000" />
+      <workItem from="1765371769307" duration="737000" />
+      <workItem from="1765438179551" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="ejemplos">
       <option name="closed" value="true" />
@@ -247,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764244041451</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ejercicios HTML">
+      <option name="closed" value="true" />
+      <created>1764846372573</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1764846372573</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

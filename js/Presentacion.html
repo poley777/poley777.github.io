@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pruebas JavaScript</title>
+</head>
+<body>
+<script>
+    let ciudad = "lefa"
+    const país = "España"
+    let mensaje = `Vivo en ${ciudad}, ${país}`;
+    console.log(mensaje)
+
+    let nombre = prompt(`Cual es su nombre?`);
+    console.log(`Bienvenido al curso de JavaScript, ${nombre}!`);
+
+    let numero1 = prompt(`Ingrese el primer número:`);
+    let numero2 = prompt(`Ingrese el segundo número:`);
+    let suma = parseInt(numero1) + parseInt(numero2);
+    console.log(`La suma de ${numero1} y ${numero2} es: ${suma}`)
+
+    let miEdad = prompt("¿Cuál es tu edad?");
+    let mayoriaEdad;
+    if (miEdad >= 18) {
+        mayoriaEdad = true;
+    } else {
+        mayoriaEdad = false;
+    }
+    alert (mayoriaEdad ? "Eres mayor de edad." : "Eres menor de edad.");
+
+    let nombreInvitado = prompt("Ingrese el nombre del invitado:");
+    if (nombreInvitado == "Admin") {
+        alert("Acceso total");
+    } else {
+        alert("Acceso limitado");
+    }
+
+    let numero;
+    do {
+        numero = prompt("Ingrese un número:");
+        if (numero <= 0) {
+            alert("El número es erronéo. Intente nuevamente.");
+        }
+        alert ("Ingrese un número válido:");
+    } while (numero <= 0);
+
+    for (let i = 1; i <= numero; i++) {
+        if (i % 2 !== 0) {
+            console.log(i);
+        }
+    }
+</script>
+</body>
+</html>
