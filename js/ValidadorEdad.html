@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input type="text" name="nombreApellidos" id="nombreApellidos">
+    <input type="number" name="añoNacimiento" id="añoNacimiento">
+    <button type="button" id="enviar">Enviar</button>
+    <button type="button" id="mostrarMedia">Mostrar media</button>
+    <button type=button id="validador">Pendiente de validación</button>
+</form>
+<script>
+    const añoActual = new Date().getFullYear();
+    const añoNacimiento = document.getElementById("añoNacimiento");
+    const enviarDatos = document.getElementById("enviar"); // Se llama enviarDatos
+    const validacion = document.getElementById("validador");
+    const botonMedia = document.getElementById("mostrarMedia");
+
+    let historialAños = [];
+
+    enviarDatos.addEventListener("click", function() {
+        let añoIngresado = Number(añoNacimiento.value);
+        let edad = añoActual - añoIngresado;
+
+        // 1. Validamos primero si el año es absurdo
+        if (añoIngresado <= 0 || edad > 120) {
+            validacion.style.backgroundColor = "black"; // Corregido: backgroundColor
+            validacion.style.color = "white";
+            validacion.textContent = "Año no válido";
+            return; // Detenemos la función aquí
+        }
+
+        // 2. Si el año es correcto, guardamos la edad
+        historialAños.push(edad);
+        validacion.textContent = "Tienes " + edad + " años";
+
+        // 3. Lógica de colores corregida
+        if (edad >= 18 && edad < 65) {
+            // Adulto trabajador
+            validacion.style.backgroundColor = "green";
+            validacion.style.color = "white";
+        } else {
+            // Menor o Jubilado
+            validacion.style.backgroundColor = "red";
+            validacion.style.color = "white";
+        }
+    });
+
+    // Evento para limpiar cuando el usuario va a escribir otro año
+    añoNacimiento.addEventListener("focusin", function() {
+        validacion.style.backgroundColor = "transparent";
+        validacion.style.color = "black";
+        validacion.textContent = "----";
+    });
+
+    // Evento para la media
+    botonMedia.addEventListener("click", function() {
+        if (historialAños.length === 0) return;
+
+        let suma = 0;
+        for (let i = 0; i < historialAños.length; i++) {
+            suma += historialAños[i];
+        }
+        alert("La media es: " + (suma / historialAños.length).toFixed(2));
+    });
+</script>
+</body>
+</html>
